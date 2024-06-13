@@ -1,0 +1,100 @@
+Here’s a step-by-step guide on how to set up SSH keys and use them for pushing code to GitHub:
+
+### Step 1: Generate an SSH Key
+
+1. Open your terminal.
+
+2. Generate a new SSH key pair:
+   ```sh
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+   Replace `your_email@example.com` with your GitHub email address.
+
+3. When prompted to "Enter a file in which to save the key," press Enter to accept the default location.
+
+4. When prompted, enter a secure passphrase (optional but recommended).
+
+### Step 2: Add the SSH Key to Your GitHub Account
+
+1. Copy the SSH key to your clipboard:
+   ```sh
+   cat ~/.ssh/id_ed25519.pub
+   ```
+   This will display your public key in the terminal. Copy the entire key (starting with `ssh-ed25519` and ending with your email).
+
+2. Go to GitHub and log in to your account.
+
+3. In the upper-right corner, click your profile photo, then click **Settings**.
+
+4. In the left sidebar, click **SSH and GPG keys**.
+
+5. Click **New SSH key**.
+
+6. In the "Title" field, add a descriptive label for the new key. For example, "My Laptop SSH Key".
+
+7. Paste your key into the "Key" field.
+
+8. Click **Add SSH key**.
+
+### Step 3: Configure Git to Use SSH
+
+1. Open your terminal.
+
+2. Verify that your SSH key is added to the SSH agent:
+   ```sh
+   ssh-add ~/.ssh/id_ed25519
+   ```
+
+3. Test your SSH connection to GitHub:
+   ```sh
+   ssh -T git@github.com
+   ```
+   You should see a message like "Hi username! You've successfully authenticated, but GitHub does not provide shell access."
+
+### Step 4: Update the Remote URL to Use SSH
+
+1. In your terminal, navigate to your project directory:
+   ```sh
+   cd /path/to/your/project
+   ```
+
+2. Update the remote URL to use SSH:
+   ```sh
+   git remote set-url origin git@github.com:mallasujith/FWC-IITH.git
+   ```
+
+### Step 5: Push Your Code
+
+1. Push your code to GitHub using SSH:
+   ```sh
+   git push -u origin main
+   ```
+
+### Complete Workflow Example
+
+1. **Generate SSH Key**:
+   ```sh
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+
+2. **Add SSH Key to GitHub**:
+   - Copy the key: `cat ~/.ssh/id_ed25519.pub`
+   - Go to GitHub settings and add the key.
+
+3. **Configure SSH Agent**:
+   ```sh
+   ssh-add ~/.ssh/id_ed25519
+   ssh -T git@github.com
+   ```
+
+4. **Update Remote URL**:
+   ```sh
+   git remote set-url origin git@github.com:mallasujith/FWC-IITH.git
+   ```
+
+5. **Push Code**:
+   ```sh
+   git push -u origin main
+   ```
+
+By following these steps, you can set up SSH authentication and push your code to GitHub securely and without the need for a Personal Access Token or password.
