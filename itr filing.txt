@@ -1,1 +1,30 @@
+*if it's the first time user has been filing , paste this link in the goole
+ https://www.incometax.gov.in/iec/foportal/help/ca/registration
 
+*right see of the window you will find 2 options [login] and [register]
+click on [register]
+
+*slect [taxpayer] and enter the PAN number , and click on validate 
+Please confirm if you want to register as “Individual taxpayer” tick on "yes" , continue
+
+*fill the necessary details from here , tick on "resident" , and proceed with other forms untill registration is completed 
+
+* paste this link in google  https://www.incometax.gov.in/iec/foportal/help/ca/registration
+  click on  login , enter your details , when you're in login page , click on option [file now] 
+
+*assesment year [2024-25] mode of filing [online] , then "continue"
+*click on [start new filing]
+
+*clcik on [individual] , click on continue
+
+*select [ITR-1], click on [PROCEED WITH ITR-1]
+
+*click on [let's get started]
+
+*click on [others] , then continue
+
+*on first row you see "Personal Information" , click on that 
+
+*don't change any options which are already marked, on "nature of employement" clcik on "others"
+
+click on "add bank account" option at the end of the page , enter bank account details , and  then continue , this process takes some time for the bank to validate. user can check on the login page if the bank account is validated  , under the option "bank account"
