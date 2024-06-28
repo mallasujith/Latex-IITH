@@ -1,4 +1,4 @@
-*if it's the first time user has been filing , paste this link in the goole
+*if it's the first time user has been filing , paste this link in the google
  https://www.incometax.gov.in/iec/foportal/help/ca/registration
 
 *right see of the window you will find 2 options [login] and [register]
