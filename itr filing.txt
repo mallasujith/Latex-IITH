@@ -28,3 +28,20 @@ Please confirm if you want to register as “Individual taxpayer” tick on "yes
 *don't change any options which are already marked, on "nature of employement" clcik on "others"
 
 click on "add bank account" option at the end of the page , enter bank account details , and  then continue , this process takes some time for the bank to validate. user can check on the login page if the bank account is validated  , under the option "bank account"
+
+after the personal information has been confirmed , click on 2nd option(gross total income), click on (skip the questions)
+
+in the subheading (income from salary), click on edit option , and in that subheading enter in option (a) column the amount you have recieved (total) , and from here , dont touch anything click on (confirm)
+
+click on option 3 (total deductions), press option (skip the questions) ,and continue , until you see option4 (tax paid) again
+
+click on option 4 , click on first sub option enter TAN number as [HYD102501C] and Name of deductor as (INDIAN INSTITUE OF TECHNOLOGY HYDERABAD) enter the total income in the first box , and in the second box , how much user should recieve.
+
+click on option 5 (tax liability) and dont change anything , click on confirm
+click on proceed
+click on preview return 
+check your details and tick the blue mark , leave filled blanks dont enter , click on (proceed preview)
+
+click on (proceed to verification)
+
+click on e-verify now , click on (i would like to verify using OTP on mobile number registered with user ) and continue , you'l get a mail  , that it's been profile has been e-verified. , user can check in the login page about their refund status
