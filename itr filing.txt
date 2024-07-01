@@ -35,7 +35,7 @@ in the subheading (income from salary), click on edit option , and in that subhe
 
 click on option 3 (total deductions), press option (skip the questions) ,and continue , until you see option4 (tax paid) again
 
-click on option 4 , click on first sub option enter TAN number as [HYD102501C] and Name of deductor as (INDIAN INSTITUE OF TECHNOLOGY HYDERABAD) enter the total income in the first box , and in the second box , how much user should recieve.
+click on option 4 , click on first sub option enter TAN number as [HYDI02501C] and Name of deductor as (INDIAN INSTITUE OF TECHNOLOGY HYDERABAD) enter the total income in the first box , and in the second box , how much user should recieve.
 
 click on option 5 (tax liability) and dont change anything , click on confirm
 click on proceed
